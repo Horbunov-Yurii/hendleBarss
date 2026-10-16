@@ -1,0 +1,22 @@
+<ul class="list">
+  {{#each this}}
+    <li id="{{id}}">
+      <h2>Ім'я: {{name}}</h2>
+      <p>Вік: {{age}}</p>
+      <a href="mailto:{{email}}">Пошта: {{email}}</a><br />
+      {{#if isActive}}
+        <p>Online</p>
+      {{else}}
+        <p>offline</p>
+      {{/if}}
+      {{#with address}}
+        <p>Країна: {{country}}</p>
+        <p>Місто: {{city}}</p>
+        <p>Вул. / буд.: {{street}}</p>
+      {{/with}}
+      {{#each friends}}
+        <div>{{this}}</div>
+      {{/each}}
+    </li>
+  {{/each}}
+</ul>
