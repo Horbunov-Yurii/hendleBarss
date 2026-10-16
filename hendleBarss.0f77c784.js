@@ -714,6 +714,42 @@ function hmrAccept(bundle /*: ParcelRequire */ , id /*: string */ ) {
 }
 
 },{}],"2R06K":[function(require,module,exports,__globalThis) {
+var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
+var _usersJson = require("./users.json");
+var _usersJsonDefault = parcelHelpers.interopDefault(_usersJson);
+
+},{"./users.json":"gOTaS","@parcel/transformer-js/src/esmodule-helpers.js":"jnFvT"}],"gOTaS":[function(require,module,exports,__globalThis) {
+module.exports = JSON.parse('[{"id":1,"name":"\u0406\u0432\u0430\u043D \u041F\u0435\u0442\u0440\u0435\u043D\u043A\u043E","age":25,"email":"ivan.petrenko@example.com","isActive":true,"address":{"country":"\u0423\u043A\u0440\u0430\u0457\u043D\u0430","city":"\u041A\u0438\u0457\u0432","street":"\u0425\u0440\u0435\u0449\u0430\u0442\u0438\u043A, 10"}},{"id":2,"name":"\u041E\u043B\u0435\u043D\u0430 \u041A\u043E\u0432\u0430\u043B\u044C","age":31,"email":"olena.koval@example.com","isActive":false,"address":{"country":"\u0423\u043A\u0440\u0430\u0457\u043D\u0430","city":"\u041B\u044C\u0432\u0456\u0432","street":"\u043F\u0440\u043E\u0441\u043F\u0435\u043A\u0442 \u0421\u0432\u043E\u0431\u043E\u0434\u0438, 15"}},{"id":3,"name":"\u0410\u043D\u0434\u0440\u0456\u0439 \u041C\u0435\u043B\u044C\u043D\u0438\u043A","age":28,"email":"andrii.melnyk@example.com","isActive":true,"address":{"country":"\u0423\u043A\u0440\u0430\u0457\u043D\u0430","city":"\u041E\u0434\u0435\u0441\u0430","street":"\u0414\u0435\u0440\u0438\u0431\u0430\u0441\u0456\u0432\u0441\u044C\u043A\u0430, 7"}},{"id":4,"name":"\u041C\u0430\u0440\u0456\u044F \u0428\u0435\u0432\u0447\u0435\u043D\u043A\u043E","age":22,"email":"maria.shevchenko@example.com","isActive":true,"address":{"country":"\u0423\u043A\u0440\u0430\u0457\u043D\u0430","city":"\u0425\u0430\u0440\u043A\u0456\u0432","street":"\u0421\u0443\u043C\u0441\u044C\u043A\u0430, 20"}},{"id":5,"name":"\u0414\u043C\u0438\u0442\u0440\u043E \u0411\u043E\u043D\u0434\u0430\u0440","age":35,"email":"dmytro.bondar@example.com","isActive":false,"address":{"country":"\u0423\u043A\u0440\u0430\u0457\u043D\u0430","city":"\u0414\u043D\u0456\u043F\u0440\u043E","street":"\u0426\u0435\u043D\u0442\u0440\u0430\u043B\u044C\u043D\u0430, 5"}},{"id":6,"name":"\u0421\u043E\u0444\u0456\u044F \u041B\u0438\u0441\u0435\u043D\u043A\u043E","age":27,"email":"sofia.lysenko@example.com","isActive":true,"address":{"country":"\u0423\u043A\u0440\u0430\u0457\u043D\u0430","city":"\u0417\u0430\u043F\u043E\u0440\u0456\u0436\u0436\u044F","street":"\u0421\u043E\u0431\u043E\u0440\u043D\u0438\u0439, 112"}},{"id":7,"name":"\u041C\u0430\u043A\u0441\u0438\u043C \u0422\u043A\u0430\u0447\u0435\u043D\u043A\u043E","age":30,"email":"maksym.tkachenko@example.com","isActive":true,"address":{"country":"\u0423\u043A\u0440\u0430\u0457\u043D\u0430","city":"\u0412\u0456\u043D\u043D\u0438\u0446\u044F","street":"\u041A\u0435\u043B\u0435\u0446\u044C\u043A\u0430, 45"}},{"id":8,"name":"\u041D\u0430\u0442\u0430\u043B\u0456\u044F \u0413\u0440\u0438\u0446\u0435\u043D\u043A\u043E","age":26,"email":"nataliia.hrytsenko@example.com","isActive":false,"address":{"country":"\u0423\u043A\u0440\u0430\u0457\u043D\u0430","city":"\u0427\u0435\u0440\u043A\u0430\u0441\u0438","street":"\u0411\u043B\u0430\u0433\u043E\u0432\u0456\u0441\u043D\u0430, 18"}},{"id":9,"name":"\u0412\u043B\u0430\u0434\u0438\u0441\u043B\u0430\u0432 \u0420\u043E\u043C\u0430\u043D\u044E\u043A","age":29,"email":"vladyslav.romaniuk@example.com","isActive":true,"address":{"country":"\u0423\u043A\u0440\u0430\u0457\u043D\u0430","city":"\u0406\u0432\u0430\u043D\u043E-\u0424\u0440\u0430\u043D\u043A\u0456\u0432\u0441\u044C\u043A","street":"\u041D\u0435\u0437\u0430\u043B\u0435\u0436\u043D\u043E\u0441\u0442\u0456, 30"}},{"id":10,"name":"\u041A\u0430\u0442\u0435\u0440\u0438\u043D\u0430 \u0421\u0430\u0432\u0447\u0443\u043A","age":24,"email":"kateryna.savchuk@example.com","isActive":true,"address":{"country":"\u0423\u043A\u0440\u0430\u0457\u043D\u0430","city":"\u0422\u0435\u0440\u043D\u043E\u043F\u0456\u043B\u044C","street":"\u0420\u0443\u0441\u044C\u043A\u0430, 9"}}]');
+
+},{}],"jnFvT":[function(require,module,exports,__globalThis) {
+exports.interopDefault = function(a) {
+    return a && a.__esModule ? a : {
+        default: a
+    };
+};
+exports.defineInteropFlag = function(a) {
+    Object.defineProperty(a, '__esModule', {
+        value: true
+    });
+};
+exports.exportAll = function(source, dest) {
+    Object.keys(source).forEach(function(key) {
+        if (key === 'default' || key === '__esModule' || Object.prototype.hasOwnProperty.call(dest, key)) return;
+        Object.defineProperty(dest, key, {
+            enumerable: true,
+            get: function() {
+                return source[key];
+            }
+        });
+    });
+    return dest;
+};
+exports.export = function(dest, destName, get) {
+    Object.defineProperty(dest, destName, {
+        enumerable: true,
+        get: get
+    });
+};
 
 },{}]},["7wZbQ","2R06K"], "2R06K", "parcelRequire545c", {})
 
